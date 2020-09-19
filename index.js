@@ -27,7 +27,7 @@ class Formatter {
           if (i==0)
           superWord += Formatter.capitalize(wordArray[i])+' ';
           superWord += Formatter.capitalize(wordArray[i])+' ';}
-        else  if( wordArray[i]=="the"||  wordArray[i]=="a"|| wordArray[i]== "an"||  wordArray[i]=="but"||  wordArray[i]=="of"|| wordArray[i]== "and"|| wordArray[i]== "for"|| wordArray[i]== "at"||  wordArray[i]=="by"|| wordArray[i]== "from")
+        else  if( wordArray[i]=="the"||  wordArray[i]=="a"|| wordArray[i]== "an"||  wordArray[i]=="but"||  wordArray[i]=="of"||wordArray[i]== "and"|| wordArray[i]== "for"|| wordArray[i]== "at"||  wordArray[i]=="by"|| wordArray[i]== "from")
           superWord+=wordArray[i]+' ';
           else
         {  if(i+1==wordArray.length)
